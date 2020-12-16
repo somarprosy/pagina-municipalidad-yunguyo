@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+
+}
+.header{
+	background: url(imagenes/muni.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+	display: flex;
+	flex-flow: column nowrap;
+}
+    .menu{
+      	background: #0B8782;
+      	display: flex;
+      	flex-flow: nowrap;
+      	height: 100px;
+      	align-items: center;
+      }
+           .logo{
+           	
+           	flex: 1 1 auto;
+           }
+           .img{
+            height: 70px;
+            width: 50%;
+
+           }
+           .nav{
+           	background: #0B8782;
+           	flex: 5 1 auto;
+           }
+              .nav a{
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 2px;
+              }
+              .nav a:hover{
+                color: #093435;
+
+              }
+           .social{
+           	background: #000;
+           	flex: 1 1 auto;
+           }
+        
+           }
+    .texto-principal{
+      display: flex;
+      align-items: center;
+    }
+        h2{
+        	font-family: 'lora',serif;
+          font-size: 50px;
+          color: #DFDFDF;
+          font-weight: 300; 
+          line-height: 1,6;
+          height: 500px;
+          text-align: center;
+                    
+        }
+.section{
+	background: #000;
+	display: flex;
+
+}
+    .articulos{
+    	background: #D1D8D8;
+    	flex:2 1 auto;
+    	display: flex;
+    	flex-flow: row wrap;
+      width: 60%;
+      padding: 30px;
+    	
+    }
+        .article{
+        	background: #EFF5F5;
+        	flex:1 1 40%;
+          padding: 30px;  
+        }
+        h3{
+          font-size: 13px;
+          padding: 10px 0;
+
+        }
+        .imag{
+          width: 100%;
+        }
+    .aside{
+    	background: #fff;
+    	flex:1 1 auto;
+
+    }
+        .publicidad{
+        	background: #D0F1EB;
+
+        }
+        
+       
+
+       
+.footer{
+	background: #000;
+	display: flex;
+	justify-content: center;
+}
+    .pie{
+    	background: #000;
+    	width: 300px;
+      color: #fff;
+
+    }
